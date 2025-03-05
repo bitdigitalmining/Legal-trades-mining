@@ -1,0 +1,9 @@
+my-crypto-app/
+├── index.html
+├── style.css
+└── images/
+    ├── usdt_btc_banner.jpg     (Your banner image)
+    ├── usdt_icon.png           (Icon for USDT)
+    ├── btc_icon.png            (Icon for BTC)
+    ├── eth_icon.png            (Icon for ETH)
+    └── tether_icon.png         (Icon for Tether, if needed)
