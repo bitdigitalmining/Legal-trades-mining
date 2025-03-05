@@ -25,7 +25,8 @@
   <!-- FINANCING SECTION -->
   <section class="financing">
     <h2>Financing</h2>
-    <div class="financing-cards">
+    <div class="financing-cards" id="financing-cards">
+      <!-- Example static content (or fetch from API) -->
       <div class="financing-card">
         <div class="financing-card-title">USDT <span>120days</span></div>
         <div class="financing-card-yield">63.5%<br/><span>yield</span></div>
@@ -45,7 +46,9 @@
   <!-- QUOTATION SECTION -->
   <section class="quotation">
     <h2>Quotation</h2>
-    <ul class="quotation-list">
+    <ul class="quotation-list" id="quotation-list">
+      <!-- Dynamic data from API will go here -->
+      <!-- Example static placeholders -->
       <li>
         <div class="coin-name">BTC</div>
         <div class="coin-price">$90435</div>
@@ -75,29 +78,8 @@
           <th>date</th>
         </tr>
       </thead>
-      <tbody>
-        <!-- Example rows; mask the username with asterisks as in the screenshot -->
-        <tr>
-          <td>i****B</td>
-          <td>12693.98</td>
-          <td>2025-03-05</td>
-        </tr>
-        <tr>
-          <td>h****O</td>
-          <td>10053.18</td>
-          <td>2025-03-05</td>
-        </tr>
-        <tr>
-          <td>uF****Ic</td>
-          <td>1112.55</td>
-          <td>2025-03-05</td>
-        </tr>
-        <tr>
-          <td>19*****Y@</td>
-          <td>3661.13</td>
-          <td>2025-03-05</td>
-        </tr>
-        <!-- Add more rows as needed -->
+      <tbody id="revenue-table-body">
+        <!-- Rows will be dynamically generated via API -->
       </tbody>
     </table>
   </section>
@@ -123,5 +105,6 @@
     <button>Chat</button>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
